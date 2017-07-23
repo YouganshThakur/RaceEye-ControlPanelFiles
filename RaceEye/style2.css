@@ -1,0 +1,103 @@
+/* 
+    Document   : style
+    Created on : 18-Jul-2017, 09:47:05
+    Author     : CGM
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+html {
+    overflow-y: hidden;
+}
+
+
+#background{ 
+
+    background-image: url("fore.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 105%;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+
+
+.left-div {
+    background-image:  url("logowithtext.png"); 
+    width: 320px;
+    height: 300px;
+    margin-left: 150px;
+    background-repeat: no-repeat;
+}
+.right-div {
+    background-image: url("fe_logo.png");
+    width: 320px; 
+    height: 300px;
+    background-repeat: no-repeat;
+}​
+
+#form
+{
+    background-color: rgba(52,73,94,0.8);
+    /*background-color: rgba(230,230,230,0.6);*/
+    border-radius : 6px;
+    margin-left: 450px;
+    width: 420px;
+    height:430px;
+    text-align: center;
+    color: #fff;
+    font-size: 23px;
+    padding-top: 40px; 
+}
+
+#add{
+
+  margin-left: 1000px;
+}
+
+.input
+{
+    width:200px;
+    height:30px;
+    margin-left: 20px;
+    font-family: monospace;
+    font-size: 15px;
+}
+#heading
+{
+    font-size: 60px;
+    font-family: inherit;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+    text-align: center;
+    //color: #c72348;
+    color: #fff;
+}
+#full
+{
+    width: 1040px ;
+    height: 590px;
+}
+#tablelist
+{
+    
+}
+#tablelistheader
+{
+    height: 50px;
+	background-color: rgb(91,192,222);
+    color: #fff;
+}
+#tablelistdetail
+{
+    height: 50px;
+    background-color: #fff;
+}

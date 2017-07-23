@@ -1,0 +1,40 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="style3.css"/>
+    </head>
+    <body id="background">
+       <div id="full"> 
+        <h1 id="heading">Camera Configuration</h1>
+        <div id="form" class="container">
+            <form method = "POST" action = "addmonitor.php" >
+                <label>Camera Name</label>
+              <input class="input" name="monitorName"  type="text" placeholder="camera1" required> 
+              <br><br>
+              <label>Host IP</label>
+              <input class="input" style="margin-left: 85px" name="hostName"  type="text" placeholder="192.16.177.177" required>
+              <br><br>
+              <label>Port Number</label>
+              <input class="input" style="margin-left: 35px" name="portNumber"  type="text" placeholder="5555">
+              <br><br>
+              <label>Path</label>
+              <input class="input" style="margin-left: 110px" name="path"  type="text" placeholder="/video" >
+              <br><br>
+              <label>Width</label>
+              <input class="input" style="margin-left: 90px" name="width"  type="text" placeholder="320" required>
+              <br><br>
+              <label>Height</label>
+              <input class="input" style="margin-left: 85px" name="height"  type="text" placeholder="240" required>
+              <br><br>
+              <input style="width: 350px;height: 60px; border-radius:5px;font-size: 25px;font-family: san-serif;background-color: #20c782; border-color: #0a6079;" type="submit"  name="submit"  value="Submit" >
+            </form>
+        </div>
+      </div>
+    </body>
+</html>
